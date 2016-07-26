@@ -25,3 +25,11 @@ using System.Runtime.CompilerServices;
 //[assembly: AssemblyDelaySign(false)]
 //[assembly: AssemblyKeyFile("")]
 
+// リリースのための設定
+/*
+#if DEBUG
+
+#else
+[assembly: Application(Debuggable=false)]
+#endif
+*/

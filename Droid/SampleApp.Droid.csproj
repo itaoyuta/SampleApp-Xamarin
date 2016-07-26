@@ -35,6 +35,11 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidKeyStore>True</AndroidKeyStore>
+    <AndroidSigningKeyStore>/Users/yutaito/Library/Developer/Xamarin/Keystore/sample/sample.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>sample</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>sample</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>sample</AndroidSigningKeyPass>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
